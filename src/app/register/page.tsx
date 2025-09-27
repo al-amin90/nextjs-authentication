@@ -25,7 +25,7 @@ const RegisterPage = () => {
   } = useForm<UserData>();
 
   const onSubmit = async (data: UserData) => {
-    console.log(data);
+
 
     try {
       const res = await registerUser(data);
